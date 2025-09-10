@@ -6,24 +6,24 @@ Jammming is a React application that allows users to search for tracks via the S
 
 ## 🚀 Features
 
-- 🔍 Search for tracks using Spotify’s real-time API
-- ➕ Add or remove tracks from your custom playlist
-- 💾 Save playlists directly to your Spotify account
-- 🧠 Handles ghost tracks and stale API responses gracefully
-- 🧪 Built-in fallback logic for authentication and playlist recovery
-- 🎨 Minimal, premium UI with elegant styling
+- 🔍 Search for tracks using Spotify’s real-time API  
+- ➕ Add or remove tracks from your custom playlist  
+- 💾 Save playlists directly to your Spotify account  
+- 🧠 Handles ghost tracks and stale API responses gracefully  
+- 🧪 Built-in fallback logic for authentication and playlist recovery  
+- 🎨 Minimal, premium UI with elegant styling  
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Technology     | Purpose                            |
-|----------------|------------------------------------|
-| React          | UI Framework                       |
-| CSS Modules    | Scoped styling per component       |
-| Spotify API    | Music data & playlist integration  |
-| LocalStorage   | Session persistence                |
-| ESLint + Prettier | Code quality & formatting       |
+| Technology       | Purpose                            |
+|------------------|------------------------------------|
+| React            | UI Framework                       |
+| CSS Modules      | Scoped styling per component       |
+| Spotify API      | Music data & playlist integration  |
+| LocalStorage     | Session persistence                |
+| ESLint + Prettier| Code quality & formatting          |
 
 ---
 
@@ -35,19 +35,9 @@ cd jammming
 npm install
 npm start
 
----
-
-## 🔐 Environment Setup
-Create a .env file in the root directory:
 REACT_APP_SPOTIFY_CLIENT_ID=your-client-id-here
 REACT_APP_REDIRECT_URI=http://localhost:3000/callback
 
-
-⚠️ Do not commit .env to GitHub. Ensure .gitignore includes .env.
-
----
-
-## 📁 Folder Structure
 jammming/
 ├── src/
 │   ├── Components/
@@ -78,14 +68,14 @@ jammming/
 ├── package-lock.json
 └── README.md
 
----
-
-## 🧑‍💻 Author
+🧑‍💻 Author
 Aiyawarin — perfectionist frontend developer
 Focused on reliability, visual elegance, and user trust.
 
-## 📄 License
+📄 License
 This project is licensed under the MIT License.
 Feel free to fork, remix, and build upon it — just don’t leak your Spotify credentials 😉
 
 ---
+
+
