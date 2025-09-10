@@ -35,6 +35,8 @@ cd jammming
 npm install
 npm start
 
+---
+
 ## 🔐 Environment Setup
 Create a .env file in the root directory:
 REACT_APP_SPOTIFY_CLIENT_ID=your-client-id-here
