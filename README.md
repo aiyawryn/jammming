@@ -17,13 +17,13 @@ Jammming is a React application that allows users to search for tracks via the S
 
 ## 🛠️ Tech Stack
 
-| Technology       | Purpose                            |
-|------------------|------------------------------------|
-| React            | UI Framework                       |
-| CSS Modules      | Scoped styling per component       |
-| Spotify API      | Music data & playlist integration  |
-| LocalStorage     | Session persistence                |
-| ESLint + Prettier| Code quality & formatting          |
+| Technology        | Purpose                            |
+|-------------------|------------------------------------|
+| React             | UI Framework                       |
+| CSS Modules       | Scoped styling per component       |
+| Spotify API       | Music data & playlist integration  |
+| LocalStorage      | Session persistence                |
+| ESLint + Prettier | Code quality & formatting          |
 
 ---
 
@@ -34,48 +34,4 @@ git clone https://github.com/your-username/jammming.git
 cd jammming
 npm install
 npm start
-
-REACT_APP_SPOTIFY_CLIENT_ID=your-client-id-here
-REACT_APP_REDIRECT_URI=http://localhost:3000/callback
-
-jammming/
-├── src/
-│   ├── Components/
-│   │   ├── PlaylistList/
-│   │   │   ├── PlaylistList.js
-│   │   │   ├── PlaylistListItem.js
-│   │   │   └── PlaylistListItem.module.css
-│   │   ├── SearchBar/
-│   │   │   ├── SearchBar.js
-│   │   │   └── SearchBar.module.css
-│   │   ├── SearchResults/
-│   │   │   ├── SearchResults.js
-│   │   │   └── SearchResults.module.css
-│   │   ├── Track/
-│   │   │   ├── Track.js
-│   │   │   └── Track.module.css
-│   │   ├── Tracklist/
-│   │   │   ├── Tracklist.js
-│   │   │   └── Tracklist.module.css
-│   ├── util/
-│   │   ├── pkceUtil.js
-│   │   └── Spotify.js
-│   ├── index.css
-│   └── index.js
-├── .env
-├── .gitignore
-├── package.json
-├── package-lock.json
-└── README.md
-
-🧑‍💻 Author
-Aiyawarin — perfectionist frontend developer
-Focused on reliability, visual elegance, and user trust.
-
-📄 License
-This project is licensed under the MIT License.
-Feel free to fork, remix, and build upon it — just don’t leak your Spotify credentials 😉
-
----
-
 
