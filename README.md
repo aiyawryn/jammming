@@ -1,6 +1,7 @@
 # 🎧 Jammming — Build Your Spotify Playlist
 
 Jammming is a React application that allows users to search for tracks via the Spotify API, create custom playlists, and save them directly to their Spotify account. Designed with a clean, responsive UI and robust state management, Jammming delivers a smooth and reliable music curation experience.
+
 <img width="980" height="1052" alt="image" src="https://github.com/user-attachments/assets/d245b50c-6f4e-4a43-914f-7082c8a84aa3" />
 
 ---
