@@ -43,6 +43,7 @@ REACT_APP_REDIRECT_URI=http://localhost:3000/callback
 
 ⚠️ Do not commit .env to GitHub. Ensure .gitignore includes .env.
 
+---
 
 ## 📁 Folder Structure
 jammming/
@@ -75,7 +76,7 @@ jammming/
 ├── package-lock.json
 └── README.md
 
-
+---
 
 ## 🧑‍💻 Author
 Aiyawarin — perfectionist frontend developer
