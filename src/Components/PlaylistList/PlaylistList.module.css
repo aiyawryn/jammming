@@ -1,0 +1,76 @@
+.PlaylistList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: auto;
+  width: 100%;
+  height: 100%;
+  padding: 2.27rem 1.16rem;
+  background-color: rgba(1, 12, 63, 0.7);
+  box-shadow: 0 4px 2px 2px #000000;
+  border-radius: 8px;
+}
+
+/* ✅ หัวข้อ */
+.PlaylistList h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.55rem;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+/* ✅ รายการ playlist */
+.PlaylistList-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0.8rem 1rem;
+  margin-bottom: 0.6rem;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 6px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  transition: background-color 0.2s;
+}
+
+.PlaylistList-item:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+/* ✅ ชื่อ playlist */
+.PlaylistList-name {
+  flex-grow: 1;
+  cursor: pointer;
+}
+
+/* ✅ ปุ่มลบ playlist */
+.PlaylistList-deleteBtn {
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-left: 12px;
+  transition: color 0.2s;
+}
+
+.PlaylistList-deleteBtn:hover {
+  color: #ff0000;
+}
+
+/* ✅ ซ่อน scrollbar */
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+/* ✅ Responsive layout */
+@media only screen and (max-width: 1020px) {
+  .PlaylistList {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+}

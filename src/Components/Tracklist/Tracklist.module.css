@@ -1,0 +1,10 @@
+.Tracklist {
+  width: 100%;
+}
+
+.empty {
+  font-style: italic;
+  color: #aaa;
+  padding: 1rem;
+  text-align: center;
+}

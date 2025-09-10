@@ -1,0 +1,46 @@
+/* ✅ Global Reset */
+* {
+  box-sizing: border-box;
+}
+
+/* ✅ SearchResults Container */
+.SearchResults {
+  width: 100%;
+  height: 100%;
+  padding: 2.27rem 1.16rem;
+  background-color: rgba(1, 12, 63, 0.7);
+  box-shadow: 0 4px 2px 2px #000000;
+  border-radius: 8px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ✅ Loading & Empty States */
+.loading {
+  font-style: italic;
+  color: #888;
+  padding: 1rem;
+}
+
+.empty {
+  font-style: italic;
+  color: #aaa;
+  padding: 1rem;
+}
+
+/* ✅ Hide Scrollbar */
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+/* ✅ Responsive Layout */
+@media only screen and (max-width: 1020px) {
+  .SearchResults {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+}

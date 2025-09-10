@@ -1,0 +1,113 @@
+/* ✅ Global Reset */
+* {
+  box-sizing: border-box;
+}
+
+body,
+html,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* ✅ Typography */
+html {
+  font-size: 18px;
+}
+
+h1 {
+  width: 100vw;
+  padding: 0.77rem 0;
+  background-color: #010c3f;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.88rem;
+  color: #fff;
+}
+
+h1 .highlight {
+  color: #6c41ec;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.55rem;
+}
+
+/* ✅ Main App Container */
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  padding: 0 2rem 10% 2rem;
+  background-image: url("./background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 500;
+  color: #fff;
+}
+
+/* ✅ Layout Grid for Lower Section */
+.App-mainGrid {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 1.5rem;
+  width: 100%;
+  max-width: 1200px; /* ✅ จำกัดความกว้างรวมของซ้าย+ขวา */
+  margin-top: 2rem;
+}
+
+/* ✅ Left & Right Panes */
+.App-leftPane,
+.App-rightPane {
+  flex: 1;
+  min-width: 0;
+  width: 48%; /* ✅ ไม่เกิน 50% รวมช่องว่าง */
+  height: 950px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ✅ Right Pane: Playlist + PlaylistList */
+.App-rightPane {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1.5rem; /* ✅ เท่ากับช่องว่างระหว่างฝั่งซ้ายขวา */
+}
+
+.App-halfHeightBox {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+/* ✅ Scrollbar Hidden */
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+/* ✅ Responsive Layout */
+@media only screen and (max-width: 1020px) {
+  .App-mainGrid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .App-leftPane,
+  .App-rightPane {
+    width: 90%;
+    height: auto;
+  }
+
+  .App-halfHeightBox {
+    margin-bottom: 1rem;
+  }
+}

@@ -1,0 +1,89 @@
+.Track {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 0.75rem 0;
+}
+
+.Track-information {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 72px;
+}
+
+.Track-information h3 {
+  margin-bottom: 0.22rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fff;
+}
+
+.Track-information p {
+  font-size: 0.83rem;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.Track-preview {
+  margin-top: 8px;
+  width: 100%;
+}
+
+.Track-actionsGroup {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+/* ✅ Minimal luxury style for Add */
+.Track-action {
+  font-size: 1.05rem;
+  color: #fff;
+  cursor: pointer;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  transition: color 0.25s ease;
+}
+
+.Track-action:hover {
+  color: goldenrod;
+}
+
+/* ✅ Minimal luxury style for Undo */
+.Track-undo {
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-left: 12px;
+  transition: color 0.2s;
+}
+
+.Track-undo:hover {
+  color: rgb(186, 142, 232);
+}
+
+/* ✅ Remove from Spotify */
+.Track-removeSpotify {
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-left: 12px;
+  transition: color 0.2s;
+}
+
+.Track-removeSpotify:hover {
+  color: #ff0000;
+}
+
+/* ✅ Already in playlist */
+.Track-checkmark {
+  font-size: 1.2rem;
+  color: green;
+  margin-left: 8px;
+}
