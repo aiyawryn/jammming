@@ -35,9 +35,7 @@ cd jammming
 npm install
 npm start
 
----
-
-🔐 Environment Setup
+## 🔐 Environment Setup
 Create a .env file in the root directory:
 REACT_APP_SPOTIFY_CLIENT_ID=your-client-id-here
 REACT_APP_REDIRECT_URI=http://localhost:3000/callback
@@ -46,7 +44,7 @@ REACT_APP_REDIRECT_URI=http://localhost:3000/callback
 ⚠️ Do not commit .env to GitHub. Ensure .gitignore includes .env.
 
 
-📁 Folder Structure
+## 📁 Folder Structure
 jammming/
 ├── src/
 │   ├── Components/
@@ -79,10 +77,12 @@ jammming/
 
 
 
-🧑‍💻 Author
+## 🧑‍💻 Author
 Aiyawarin — perfectionist frontend developer
 Focused on reliability, visual elegance, and user trust.
 
-📄 License
+## 📄 License
 This project is licensed under the MIT License.
 Feel free to fork, remix, and build upon it — just don’t leak your Spotify credentials 😉
+
+---
