@@ -44,7 +44,7 @@ Create a .env file in the root directory:
 
 ```env
 REACT_APP_SPOTIFY_CLIENT_ID=your-client-id-here
-REACT_APP_REDIRECT_URI=http://localhost:3000/callback
+REACT_APP_REDIRECT_URI=http://127.0.0.1:3000/
 ```
 
 ⚠️ Do not commit .env to GitHub. Ensure .gitignore includes .env.
